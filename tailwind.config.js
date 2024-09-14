@@ -2,7 +2,20 @@
 module.exports = {
   content: ["./index.html","./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'outfit': ['Outfit', 'sans-serif'],
+        'sansita': ["Sansita", 'sans-serif'],
+        'domine': ["Domine", 'serif'],
+      },
+      colors: {
+        'primary': '#F62500',
+        'btn':'#FF6347',
+      },
+      backgroundImage: {
+        'breadcrumb': "url(/images/huhh.jpg)",
+      },
+    },
   },
   plugins: [],
 }
