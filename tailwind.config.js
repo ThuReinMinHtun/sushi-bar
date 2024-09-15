@@ -10,7 +10,8 @@ module.exports = {
       },
       colors: {
         'primary': '#F62500',
-        'btn':'#FF6347',
+        'btn': '#FF6347',
+        'icon': '#2E1814',
       },
       backgroundImage: {
         'breadcrumb': "url(/images/huhh.jpg)",
